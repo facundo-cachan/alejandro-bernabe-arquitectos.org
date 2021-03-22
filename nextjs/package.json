@@ -1,0 +1,24 @@
+{
+  "name": "with-graphql-hooks",
+  "version": "1.0.0",
+  "scripts": {
+    "clean": "rm -rf .next && rm -rf build && rm -rf __generated__",
+    "dev": "yarn clean && next -p 3001",
+    "build": "next build",
+    "start": "next start"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "graphql-hooks": "^5.1.0",
+    "graphql-hooks-memcache": "^2.1.0",
+    "next": "latest",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.35",
+    "@types/react": "^17.0.3",
+    "typescript": "^4.2.3"
+  }
+}
